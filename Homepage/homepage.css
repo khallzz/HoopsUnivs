@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    box-sizing: border-box;
+}
+
+header{
+    display: block;
+    height: 30px;
+    background-color: rgb(185, 187, 167);
+    text-align: center;
+
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+
+}
+
+
+.navigation{
+    position: relative;
+    align-items: center;
+    height: 80px; 
+    background-color: rgb(237, 238, 232);
+
+}
+
+a{
+    text-decoration: none;
+}
+.navigation ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navigation ul li a{
+    padding: 30px;
+    display: block;
+    color: black;
+    
+}
+
+.navigation > ul > li:hover{
+    background-color:rgb(237, 238, 232) ;
+}
+
+.navigation ul li :hover{
+  background-color: rgb(237, 238, 232);
+    
+
+}
+
+.navigation ul li :hover a{
+    color: black;
+}
+
+.navigation ul li:hover .homepage {
+    display: block;
+}
+
+.navigation ul li a:hover{
+    color: white;
+}
+.navigation ul li a{
+font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+.homepage{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.homepage li{
+    background-color: white;
+}
+
+.homepage li:hover{
+    background-color: white;
+}
+
+
+/* home main */
+
+
+#main{
+
+background-color: white;
+
+
+
+}
+
+
+
+.isinewarrival img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+
+.isinewarrival h2{
+    padding: 10px;
+    font-size: 18;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.isinewarrival img{
+    width: 600px;
+    height: 500px;
+   
+    padding: 10px 10px;
+}
+
+.isinewarrival :hover{
+    color: white;
+}
+
+
+
+
+
+
+
+/* shoes page */
+
+#shoes{
+    padding: 32px;
+    
+    background-color: white;
+    min-height: 92vh;
+}
+
+#shoes img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.sepatu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.isisepatu{
+   
+    margin: 4px 4px;
+    padding: 10px 10px;
+    text-align: center ;
+}
+
+
+
+
+/* FAQ Page */
+
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the navigation links */
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+
+  .Judul h1{
+      text-align: center;
+      padding: 8px;
+      color: black;
+  }
+
+
+
+
+ /*purchase product */
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    
+  }
+  .col-50 h3{
+      text-align: center;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+
+  span.price b{
+      color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.con{
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: black;
+    padding: 70px 0;
+   
+}
+
+.footercol{ 
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footercol h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footercol h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footercol ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+.footercol ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footercol ul li a:hover{
+    color: white ;
+    padding-left: 8px;
+}
+
+.footercol .socmed a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footercol .socmed a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+
+
+
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 600px){
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+
+    .footercol{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+  }
